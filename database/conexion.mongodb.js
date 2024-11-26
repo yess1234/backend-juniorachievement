@@ -3,7 +3,7 @@ import { configDotenv } from "dotenv";
 
 configDotenv()
 
-let URLDB = "mongodb+srv://ezequielcampos:fhjRsiUgIYx2ZH8g@cluster0.06meydb.mongodb.net/myProducts?retryWrites=true&w=majority&appName=Cluster0"
+let URLDB = "mongodb+srv://ezequielcampos:Vv1bbyDGL9h0bowT@cluster0.06meydb.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
 
 
 const MongoConexion = async () => {
