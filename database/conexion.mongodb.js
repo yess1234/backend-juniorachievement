@@ -3,7 +3,7 @@ import { configDotenv } from "dotenv";
 
 configDotenv()
 
-let URLDB = "mongodb+srv://ezequielcampos:Vv1bbyDGL9h0bowT@cluster0.06meydb.mongodb.net/myProducts?retryWrites=true&w=majority&appName=Cluster0"
+let URLDB = process.env.CADENA_CONEXION;
 
 
 const MongoConexion = async () => {
